@@ -44,23 +44,23 @@ git clone https://github.com/fjord-themes/fjord-helix.git --depth 1
 
 ```bash
 mkdir -p ~/.config/helix/themes/
-cp fjord-Helix/themes/fjord.toml ~/.config/helix/themes/.
+cp fjord-helix/themes/fjord.toml ~/.config/helix/themes/.
 ```
 
 3. Add the theme to your Helix config (`~/.config/helix/config.toml`):
+```toml
+theme = "fjord"
+```
 
 
 
+4. Restart Helix to apply the theme.
 
 
 
 ## 🔧 Configuration
 
-The theme is designed to work transparently with your terminal colors while providing optimal contrast and readability in the Helix editor.
-## 📸 Preview
-
-![Fjord Helix Theme](https://github.com/fjord-theme/Fjord/blob/main/images/helix.png)
-
+The theme is designed to work transparently with your terminal colors while providing optimal contrast and readability in Helix.
 
 ## 🔄 Updates
 
