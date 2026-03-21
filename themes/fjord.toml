@@ -11,13 +11,13 @@
 "ui.cursor" = { fg = "#1B2532", bg = "#E8F0F3" }
 "ui.cursor.normal" = { fg = "#1B2532", bg = "#E8F0F3" }
 "ui.cursor.insert" = { fg = "#1B2532", bg = "#B8E7E9" }
-"ui.cursor.select" = { fg = "#1B2532", bg = "#A8A4F8" }
-"ui.cursor.match"  = { fg = "#D4CC7A", modifiers = ["bold"] }
+"ui.cursor.select" = { fg = "#1B2532", bg = "#B9A0F8" }
+"ui.cursor.match"  = { fg = "#FFE0A3", modifiers = ["bold"] }
 
 "ui.cursor.primary" = { fg = "#1B2532", bg = "#E8F0F3" }
 "ui.cursor.primary.normal" = { fg = "#1B2532", bg = "#E8F0F3" }
 "ui.cursor.primary.insert" = { fg = "#1B2532", bg = "#B8E7E9" }
-"ui.cursor.primary.select" = { fg = "#1B2532", bg = "#A8A4F8" }
+"ui.cursor.primary.select" = { fg = "#1B2532", bg = "#B9A0F8" }
 
 # Gutter / line numbers
 "ui.gutter" = { fg = "#6C7A86", bg = "none" }
@@ -30,7 +30,7 @@
 "ui.statusline.inactive" = { fg = "#6C7A86", bg = "#1F2A39" }
 "ui.statusline.normal"   = { fg = "#1B2532", bg = "#5DA6EA",   modifiers = ["bold"] }
 "ui.statusline.insert"   = { fg = "#1B2532", bg = "#9DD99A",  modifiers = ["bold"] }
-"ui.statusline.select"   = { fg = "#1B2532", bg = "#A8A4F8", modifiers = ["bold"] }
+"ui.statusline.select"   = { fg = "#1B2532", bg = "#B9A0F8", modifiers = ["bold"] }
 "ui.statusline.separator"= { fg = "#233141" }
 
 # Bufferline
@@ -65,7 +65,7 @@
 "ui.virtual.inlay-hint"          = { fg = "#51606B", bg = "#1F2A39" }
 "ui.virtual.inlay-hint.parameter"= { fg = "#B8E7E9",   bg = "#1F2A39" }
 "ui.virtual.inlay-hint.type"     = { fg = "#5DA6EA",   bg = "#1F2A39" }
-"ui.virtual.jump-label"          = { fg = "#D4CC7A", modifiers = ["bold"] }  # reserved pop color
+"ui.virtual.jump-label"          = { fg = "#FFE0A3", modifiers = ["bold"] }  # reserved pop color
 
 # Picker header + columns
 "ui.picker.header"               = { fg = "#E8F0F3", bg = "#1F2A39", modifiers = ["bold"] }
@@ -76,7 +76,7 @@
 "ui.selection"         = { bg = "#B8E7E9", fg = "#1B2532" }
 "ui.selection.primary" = { bg = "#B8E7E9", fg = "#1B2532" }
 "ui.highlight"         = { bg = "#233141" }
-"ui.highlight.frameline" = { fg = "#C8B860", bg = "#1F2A39", modifiers = ["bold"] }
+"ui.highlight.frameline" = { fg = "#FFD285", bg = "#1F2A39", modifiers = ["bold"] }
 
 # Cursorline / column — subtle, opaque
 "ui.cursorline.primary"     = { bg = "#1F2A39" }
@@ -86,10 +86,10 @@
 
 # Search
 "ui.search"         = { fg = "#1B2532", bg = "#B8E7E9" }
-"ui.search.current" = { fg = "#1B2532", bg = "#D4CC7A" }
+"ui.search.current" = { fg = "#1B2532", bg = "#FFE0A3" }
 
 # Diagnostics
-"warning" = { fg = "#C8B860" }
+"warning" = { fg = "#FFD285" }
 "error"   = { fg = "#F37C7C" }
 "info"    = { fg = "#B8E7E9" }
 "hint"    = { fg = "#5DA6EA" }
@@ -97,7 +97,7 @@
 "diagnostic"             = { underline = { style = "curl", color = "#51606B" } }
 "diagnostic.hint"        = { underline = { style = "curl", color = "#5DA6EA" } }
 "diagnostic.info"        = { underline = { style = "curl", color = "#B8E7E9" } }
-"diagnostic.warning"     = { underline = { style = "curl", color = "#C8B860" } }
+"diagnostic.warning"     = { underline = { style = "curl", color = "#FFD285" } }
 "diagnostic.error"       = { underline = { style = "curl", color = "#F37C7C" } }
 "diagnostic.unnecessary" = { modifiers = ["dim"] }
 "diagnostic.deprecated"  = { modifiers = ["crossed_out"] }
@@ -118,7 +118,7 @@
 "attribute" = { fg = "#B8E7E9" }
 "attribute.builtin" = { fg = "#B8E7E9" }
 
-"decorator" = { fg = "#C8CCF7" }
+"decorator" = { fg = "#D4C6F7" }
 
 "type"                 = { fg = "#5DA6EA" }
 "type.builtin"         = { fg = "#7BB8FF" }
@@ -157,7 +157,7 @@
 "variable.other.member"          = { fg = "#B8E7E9" }
 "variable.other.member.private"  = { fg = "#B8E7E9" }
 
-"label" = { fg = "#C8CCF7", modifiers = ["bold"] }
+"label" = { fg = "#D4C6F7", modifiers = ["bold"] }
 
 # Operators & punctuation — explicit families so '=' et al. never disappear
 "operator"              = { fg = "#7BB8FF" }
@@ -193,7 +193,7 @@
 "function.builtin"         = { fg = "#B8E7E9" }
 "function.method"          = { fg = "#B8E7E9" }
 "function.method.private"  = { fg = "#B8E7E9" }
-"function.macro"           = { fg = "#C8CCF7" }
+"function.macro"           = { fg = "#D4C6F7" }
 "function.special"         = { fg = "#B8E7E9" }
 
 "tag"        = { fg = "#5DA6EA" }
@@ -205,11 +205,11 @@
 # Markup
 "markup.heading"   = { fg = "#5DA6EA", modifiers = ["bold"] }
 "markup.heading.1" = { fg = "#F37C7C", modifiers = ["bold"] }
-"markup.heading.2" = { fg = "#D4CC7A", modifiers = ["bold"] }
-"markup.heading.3" = { fg = "#C8B860", modifiers = ["bold"] }
+"markup.heading.2" = { fg = "#FFE0A3", modifiers = ["bold"] }
+"markup.heading.3" = { fg = "#FFD285", modifiers = ["bold"] }
 "markup.heading.4" = { fg = "#9DD99A", modifiers = ["bold"] }
 "markup.heading.5" = { fg = "#5DA6EA", modifiers = ["bold"] }
-"markup.heading.6" = { fg = "#C8CCF7", modifiers = ["bold"] }
+"markup.heading.6" = { fg = "#D4C6F7", modifiers = ["bold"] }
 "markup.marker"    = { fg = "#51606B" }
 "markup.list"      = { fg = "#B8E7E9" }
 "markup.list.unchecked" = { fg = "#51606B" }
@@ -219,9 +219,9 @@
 "markup.strikethrough" = { modifiers = ["crossed_out"] }
 "markup.link"      = { fg = "#5DA6EA" }
 "markup.link.url"  = { fg = "#5DA6EA", modifiers = ["underlined"] }
-"markup.link.label"= { fg = "#C8CCF7" }
+"markup.link.label"= { fg = "#D4C6F7" }
 "markup.link.text" = { fg = "#5DA6EA" }
-"markup.quote"     = { fg = "#C8CCF7" }
+"markup.quote"     = { fg = "#D4C6F7" }
 "markup.raw"       = { fg = "#9DD99A" }
 "markup.raw.inline"= { fg = "#9DD99A" }
 "markup.raw.block" = { fg = "#9DD99A" }
@@ -232,8 +232,8 @@
 "diff.minus"        = { fg = "#F37C7C" }
 "diff.minus.gutter" = { fg = "#F37C7C" }
 "diff.delta"        = { fg = "#5DA6EA" }
-"diff.delta.moved"  = { fg = "#C8CCF7" }
-"diff.conflict"     = { fg = "#D4CC7A", modifiers = ["bold"] }
+"diff.delta.moved"  = { fg = "#D4C6F7" }
+"diff.conflict"     = { fg = "#FFE0A3", modifiers = ["bold"] }
 "diff.delta.gutter" = { fg = "#5DA6EA" }
 
 ###############################################################################
@@ -255,10 +255,10 @@ muted     = "#51606B"
 
 # Accents (from your WT scheme)
 red       = "#F37C7C"
-orange    = "#D4CC7A"   # used for search.current contrast (pairs with yellow selection)
-yellow    = "#C8B860"   # AMBER (WT selection, functions)
+orange    = "#FFE0A3"   # used for search.current contrast (pairs with yellow selection)
+yellow    = "#FFD285"   # AMBER (WT selection, functions)
 green     = "#9DD99A"   # cursor / insert statusline
-purple    = "#A8A4F8"
+purple    = "#B9A0F8"
 cyan      = "#B8E7E9"
 blue      = "#5DA6EA"
 
@@ -266,9 +266,9 @@ blue      = "#5DA6EA"
 b_black   = "#212128"
 b_red     = "#FF9B9B"
 b_green   = "#A3D5A0"
-b_yellow  = "#D4CC7A"
+b_yellow  = "#FFE0A3"
 b_blue    = "#7BB8FF"
-b_purple  = "#C8CCF7"
+b_purple  = "#D4C6F7"
 b_cyan    = "#A1E9DE"
 b_white   = "#EFFAFF"
 
