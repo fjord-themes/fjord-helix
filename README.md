@@ -40,7 +40,7 @@ A dusk-blue base with soft leaf-green accents, cyan selections, and crisp blue/c
 
 ```bash
 mkdir -p ~/.config/helix/themes/
-git clone https://git.jshuntley.com/fjord-theme/fjord-helix.git --depth 1 ~/.config/helix/themes/fjord-helix
+git clone https://github.com/fjord-themes/fjord-helix.git --depth 1 ~/.config/helix/themes/fjord-helix
 ```
 
 2. Symlink the theme file into the Helix themes directory:
