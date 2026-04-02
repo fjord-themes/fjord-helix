@@ -5,19 +5,19 @@
 ###############################################################################
 
 "ui.background" = { fg = "#E8F0F3", bg = "none" }
-"ui.background.separator" = { fg = "#233141" }
+"ui.background.separator" = { fg = "#233941" }
 
 # Cursor (primary + color-modes support)
-"ui.cursor" = { fg = "#1B2532", bg = "#E8F0F3" }
-"ui.cursor.normal" = { fg = "#1B2532", bg = "#E8F0F3" }
-"ui.cursor.insert" = { fg = "#1B2532", bg = "#B8E7E9" }
-"ui.cursor.select" = { fg = "#1B2532", bg = "#B9A0F8" }
+"ui.cursor" = { fg = "#1B2C32", bg = "#E8F0F3" }
+"ui.cursor.normal" = { fg = "#1B2C32", bg = "#E8F0F3" }
+"ui.cursor.insert" = { fg = "#1B2C32", bg = "#B8E7E9" }
+"ui.cursor.select" = { fg = "#1B2C32", bg = "#B9A0F8" }
 "ui.cursor.match"  = { fg = "#FFE0A3", modifiers = ["bold"] }
 
-"ui.cursor.primary" = { fg = "#1B2532", bg = "#E8F0F3" }
-"ui.cursor.primary.normal" = { fg = "#1B2532", bg = "#E8F0F3" }
-"ui.cursor.primary.insert" = { fg = "#1B2532", bg = "#B8E7E9" }
-"ui.cursor.primary.select" = { fg = "#1B2532", bg = "#B9A0F8" }
+"ui.cursor.primary" = { fg = "#1B2C32", bg = "#E8F0F3" }
+"ui.cursor.primary.normal" = { fg = "#1B2C32", bg = "#E8F0F3" }
+"ui.cursor.primary.insert" = { fg = "#1B2C32", bg = "#B8E7E9" }
+"ui.cursor.primary.select" = { fg = "#1B2C32", bg = "#B9A0F8" }
 
 # Gutter / line numbers
 "ui.gutter" = { fg = "#6C7A86", bg = "none" }
@@ -26,67 +26,67 @@
 "ui.linenr.selected" = { fg = "#5DA6EA", bg = "none", modifiers = ["bold"] }
 
 # Statusline (includes color-modes variants)
-"ui.statusline"          = { fg = "#E8F0F3",   bg = "#1F2A39" }
-"ui.statusline.inactive" = { fg = "#6C7A86", bg = "#1F2A39" }
-"ui.statusline.normal"   = { fg = "#1B2532", bg = "#5DA6EA",   modifiers = ["bold"] }
-"ui.statusline.insert"   = { fg = "#1B2532", bg = "#9DD99A",  modifiers = ["bold"] }
-"ui.statusline.select"   = { fg = "#1B2532", bg = "#B9A0F8", modifiers = ["bold"] }
-"ui.statusline.separator"= { fg = "#233141" }
+"ui.statusline"          = { fg = "#E8F0F3",   bg = "#1F3239" }
+"ui.statusline.inactive" = { fg = "#6C7A86", bg = "#1F3239" }
+"ui.statusline.normal"   = { fg = "#1B2C32", bg = "#5DA6EA",   modifiers = ["bold"] }
+"ui.statusline.insert"   = { fg = "#1B2C32", bg = "#9DD99A",  modifiers = ["bold"] }
+"ui.statusline.select"   = { fg = "#1B2C32", bg = "#B9A0F8", modifiers = ["bold"] }
+"ui.statusline.separator"= { fg = "#233941" }
 
 # Bufferline
-"ui.bufferline"            = { fg = "#E8F0F3", bg = "#1F2A39" }
-"ui.bufferline.active"     = { fg = "#5DA6EA", bg = "#1B2532", underline = { color = "#5DA6EA", style = "line" } }
-"ui.bufferline.background" = { bg = "#1B2532" }
+"ui.bufferline"            = { fg = "#E8F0F3", bg = "#1F3239" }
+"ui.bufferline.active"     = { fg = "#5DA6EA", bg = "#1B2C32", underline = { color = "#5DA6EA", style = "line" } }
+"ui.bufferline.background" = { bg = "#1B2C32" }
 
 # Popup, Window, Help
-"ui.popup"       = { fg = "#E8F0F3",   bg = "#1F2A39" }
-"ui.popup.info"  = { fg = "#E8F0F3",   bg = "#1F2A39" }
+"ui.popup"       = { fg = "#E8F0F3",   bg = "#1F3239" }
+"ui.popup.info"  = { fg = "#E8F0F3",   bg = "#1F3239" }
 "ui.popup.border"= { fg = "#5DA6EA" }
-"ui.window"      = { fg = "#233141" }
-"ui.help"        = { fg = "#6C7A86", bg = "#1F2A39" }
+"ui.window"      = { fg = "#233941" }
+"ui.help"        = { fg = "#6C7A86", bg = "#1F3239" }
 
 # Menus
-"ui.menu"          = { fg = "#E8F0F3", bg = "#1F2A39" }
-"ui.menu.selected" = { fg = "#1B2532", bg = "#5DA6EA", modifiers = ["bold"] }
-"ui.menu.scroll"   = { fg = "#5DA6EA", bg = "#233141" }
+"ui.menu"          = { fg = "#E8F0F3", bg = "#1F3239" }
+"ui.menu.selected" = { fg = "#1B2C32", bg = "#5DA6EA", modifiers = ["bold"] }
+"ui.menu.scroll"   = { fg = "#5DA6EA", bg = "#233941" }
 
 # Text (generic UI text states)
 "ui.text"            = "#E8F0F3"
-"ui.text.focus"      = { fg = "#E8F0F3", bg = "#1F2A39", modifiers = ["bold"] }
+"ui.text.focus"      = { fg = "#E8F0F3", bg = "#1F3239", modifiers = ["bold"] }
 "ui.text.inactive"   = { fg = "#51606B" }
 "ui.text.info"       = { fg = "#5DA6EA" }
 "ui.text.directory"  = { fg = "#5DA6EA" }
 
 # Virtuals / guides / hints
-"ui.virtual.ruler"               = { bg = "#2D3D52" }
+"ui.virtual.ruler"               = { bg = "#2D4852" }
 "ui.virtual.whitespace"          = { fg = "#51606B" }
 "ui.virtual.indent-guide"        = { fg = "#51606B" }
 "ui.virtual.wrap"                = { fg = "#51606B" }
-"ui.virtual.inlay-hint"          = { fg = "#51606B", bg = "#1F2A39" }
-"ui.virtual.inlay-hint.parameter"= { fg = "#B8E7E9",   bg = "#1F2A39" }
-"ui.virtual.inlay-hint.type"     = { fg = "#5DA6EA",   bg = "#1F2A39" }
+"ui.virtual.inlay-hint"          = { fg = "#51606B", bg = "#1F3239" }
+"ui.virtual.inlay-hint.parameter"= { fg = "#B8E7E9",   bg = "#1F3239" }
+"ui.virtual.inlay-hint.type"     = { fg = "#5DA6EA",   bg = "#1F3239" }
 "ui.virtual.jump-label"          = { fg = "#FFE0A3", modifiers = ["bold"] }  # reserved pop color
 
 # Picker header + columns
-"ui.picker.header"               = { fg = "#E8F0F3", bg = "#1F2A39", modifiers = ["bold"] }
-"ui.picker.header.column"        = { fg = "#6C7A86", bg = "#1F2A39" }
-"ui.picker.header.column.active" = { fg = "#5DA6EA", bg = "#1F2A39", modifiers = ["bold"] }
+"ui.picker.header"               = { fg = "#E8F0F3", bg = "#1F3239", modifiers = ["bold"] }
+"ui.picker.header.column"        = { fg = "#6C7A86", bg = "#1F3239" }
+"ui.picker.header.column.active" = { fg = "#5DA6EA", bg = "#1F3239", modifiers = ["bold"] }
 
 # Selection & highlight (WT parity: amber selection)
-"ui.selection"         = { bg = "#B8E7E9", fg = "#1B2532" }
-"ui.selection.primary" = { bg = "#B8E7E9", fg = "#1B2532" }
-"ui.highlight"         = { bg = "#233141" }
-"ui.highlight.frameline" = { fg = "#FFD285", bg = "#1F2A39", modifiers = ["bold"] }
+"ui.selection"         = { bg = "#B8E7E9", fg = "#1B2C32" }
+"ui.selection.primary" = { bg = "#B8E7E9", fg = "#1B2C32" }
+"ui.highlight"         = { bg = "#233941" }
+"ui.highlight.frameline" = { fg = "#FFD285", bg = "#1F3239", modifiers = ["bold"] }
 
 # Cursorline / column — subtle, opaque
-"ui.cursorline.primary"     = { bg = "#1F2A39" }
+"ui.cursorline.primary"     = { bg = "#1F3239" }
 "ui.cursorline.secondary"   = { bg = "none" }
-"ui.cursorcolumn.primary"   = { bg = "#1F2A39" }
+"ui.cursorcolumn.primary"   = { bg = "#1F3239" }
 "ui.cursorcolumn.secondary" = { bg = "none" }
 
 # Search
-"ui.search"         = { fg = "#1B2532", bg = "#B8E7E9" }
-"ui.search.current" = { fg = "#1B2532", bg = "#FFE0A3" }
+"ui.search"         = { fg = "#1B2C32", bg = "#B8E7E9" }
+"ui.search.current" = { fg = "#1B2C32", bg = "#FFE0A3" }
 
 # Diagnostics
 "warning" = { fg = "#FFD285" }
@@ -103,7 +103,7 @@
 "diagnostic.deprecated"  = { modifiers = ["crossed_out"] }
 
 # Snippet tabstops
-"tabstop" = { fg = "#1B2532", bg = "#B8E7E9" }
+"tabstop" = { fg = "#1B2C32", bg = "#B8E7E9" }
 
 ###############################################################################
 # Syntax (Tree-sitter)
@@ -242,11 +242,11 @@
 
 [palette]
 # Base & UI
-base      = "#1B2532"   # used for non-transparent surfaces
-base_     = "#1F2A39"   # subtle overlay for cursorline (opaque)
-surface   = "#1F2A39"   # panels, popups, statusline base
-line      = "#233141"   # separators
-selection = "#2D3D52"   # generic highlight block (not used for text selection)
+base      = "#1B2C32"   # used for non-transparent surfaces
+base_     = "#1F3239"   # subtle overlay for cursorline (opaque)
+surface   = "#1F3239"   # panels, popups, statusline base
+line      = "#233941"   # separators
+selection = "#2D4852"   # generic highlight block (not used for text selection)
 
 # Text
 fg        = "#E8F0F3"
@@ -273,5 +273,5 @@ b_cyan    = "#A1E9DE"
 b_white   = "#EFFAFF"
 
 # UI helpers
-ruler          = "#2D3D52"
-cursorline_dim = "#1F2A39"   # very close to base, subtle & opaque
+ruler          = "#2D4852"
+cursorline_dim = "#1F3239"   # very close to base, subtle & opaque
