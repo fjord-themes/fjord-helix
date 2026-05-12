@@ -21,34 +21,34 @@
 
 # Gutter / line numbers
 "ui.gutter" = { fg = "#6C7A86", bg = "none" }
-"ui.gutter.selected" = { fg = "#5DA6EA", bg = "none", modifiers = ["bold"] }
+"ui.gutter.selected" = { fg = "#9DD99A", bg = "none", modifiers = ["bold"] }
 "ui.linenr" = { fg = "#6C7A86", bg = "none" }
-"ui.linenr.selected" = { fg = "#5DA6EA", bg = "none", modifiers = ["bold"] }
+"ui.linenr.selected" = { fg = "#9DD99A", bg = "none", modifiers = ["bold"] }
 
 # Statusline (includes color-modes variants)
 "ui.statusline"          = { fg = "#E8F0F3",   bg = "#1F3239" }
 "ui.statusline.inactive" = { fg = "#6C7A86", bg = "#1F3239" }
-"ui.statusline.normal"   = { fg = "#1B2C32", bg = "#5DA6EA",   modifiers = ["bold"] }
+"ui.statusline.normal"   = { fg = "#1B2C32", bg = "#9DD99A",  modifiers = ["bold"] }
 "ui.statusline.insert"   = { fg = "#1B2C32", bg = "#9DD99A",  modifiers = ["bold"] }
 "ui.statusline.select"   = { fg = "#1B2C32", bg = "#B9A0F8", modifiers = ["bold"] }
 "ui.statusline.separator"= { fg = "#233941" }
 
 # Bufferline
 "ui.bufferline"            = { fg = "#E8F0F3", bg = "#1F3239" }
-"ui.bufferline.active"     = { fg = "#5DA6EA", bg = "#1B2C32", underline = { color = "#5DA6EA", style = "line" } }
+"ui.bufferline.active"     = { fg = "#9DD99A", bg = "#1B2C32", underline = { color = "#9DD99A", style = "line" } }
 "ui.bufferline.background" = { bg = "#1B2C32" }
 
 # Popup, Window, Help
 "ui.popup"       = { fg = "#E8F0F3",   bg = "#1F3239" }
 "ui.popup.info"  = { fg = "#E8F0F3",   bg = "#1F3239" }
-"ui.popup.border"= { fg = "#5DA6EA" }
+"ui.popup.border"= { fg = "#9DD99A" }
 "ui.window"      = { fg = "#233941" }
 "ui.help"        = { fg = "#6C7A86", bg = "#1F3239" }
 
 # Menus
 "ui.menu"          = { fg = "#E8F0F3", bg = "#1F3239" }
-"ui.menu.selected" = { fg = "#1B2C32", bg = "#5DA6EA", modifiers = ["bold"] }
-"ui.menu.scroll"   = { fg = "#5DA6EA", bg = "#233941" }
+"ui.menu.selected" = { fg = "#1B2C32", bg = "#9DD99A", modifiers = ["bold"] }
+"ui.menu.scroll"   = { fg = "#9DD99A", bg = "#233941" }
 
 # Text (generic UI text states)
 "ui.text"            = "#E8F0F3"
@@ -70,7 +70,7 @@
 # Picker header + columns
 "ui.picker.header"               = { fg = "#E8F0F3", bg = "#1F3239", modifiers = ["bold"] }
 "ui.picker.header.column"        = { fg = "#6C7A86", bg = "#1F3239" }
-"ui.picker.header.column.active" = { fg = "#5DA6EA", bg = "#1F3239", modifiers = ["bold"] }
+"ui.picker.header.column.active" = { fg = "#9DD99A", bg = "#1F3239", modifiers = ["bold"] }
 
 # Selection & highlight (WT parity: amber selection)
 "ui.selection"         = { bg = "#B8E7E9", fg = "#1B2C32" }
@@ -92,10 +92,10 @@
 "warning" = { fg = "#FFD285" }
 "error"   = { fg = "#F37C7C" }
 "info"    = { fg = "#B8E7E9" }
-"hint"    = { fg = "#5DA6EA" }
+"hint"    = { fg = "#9DD99A" }
 
 "diagnostic"             = { underline = { style = "curl", color = "#51606B" } }
-"diagnostic.hint"        = { underline = { style = "curl", color = "#5DA6EA" } }
+"diagnostic.hint"        = { underline = { style = "curl", color = "#9DD99A" } }
 "diagnostic.info"        = { underline = { style = "curl", color = "#B8E7E9" } }
 "diagnostic.warning"     = { underline = { style = "curl", color = "#FFD285" } }
 "diagnostic.error"       = { underline = { style = "curl", color = "#F37C7C" } }
